@@ -1,0 +1,19 @@
+version: '3'
+services:
+  dragonos-mirror-frontend:
+    container_name: dragonos-mirror-frontend
+    image: dragonos/dragonos-mirror-frontend:latest
+    restart: always
+    volumes:
+      - ./pub:/app/pub
+    networks:
+      dragonos-mirror-network:
+        ipv4_address: 172.88.0.2
+
+networks:
+  dragonos-mirror-network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.88.0.0/24
+
