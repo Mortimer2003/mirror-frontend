@@ -2808,6 +2808,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		align-items: flex-start;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
@@ -2823,13 +2824,13 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(25% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
+			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4) {
 				margin-top: 0;
 			}
 
@@ -2862,7 +2863,7 @@ input, select, textarea {
 					margin-top: 2em;
 				}
 
-					.features li:nth-child(2), .features li:nth-child(3) {
+					.features li:nth-child(2), .features li:nth-child(3),.features li:nth-child(4) {
 						margin-top: 2em;
 					}
 
