@@ -2844,7 +2844,7 @@ input, select, textarea {
 				width: calc(50% - 2em);
 			}
 
-				.features li:nth-child(3) {
+				.features li:nth-child(3), .features li:nth-child(4) {
 					margin-top: 3em;
 				}
 
@@ -3015,10 +3015,9 @@ input, select, textarea {
 			border: solid 1px;
 		}
 
-			.spotlight .image img {
+			.spotlight img {
 				display: block;
-				border-radius: 100%;
-				width: 16em;
+				width: 30em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3052,7 +3051,7 @@ input, select, textarea {
 						width: calc(100% + 1em);
 					}
 
-				.spotlight .image {
+				.spotlight img {
 					-moz-flex: 0 1 auto;
 					-webkit-flex: 0 1 auto;
 					-ms-flex: 0 1 auto;
@@ -3069,8 +3068,8 @@ input, select, textarea {
 				padding: 0.35em;
 			}
 
-				.spotlight .image img {
-					width: 12em;
+				.spotlight img {
+					width: 20em;
 				}
 
 		}
@@ -3104,22 +3103,22 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition: opacity 1s ease;
+				-webkit-transition: opacity 1s ease;
+				-ms-transition: opacity 1s ease;
+				transition: opacity 1s ease;
+				-moz-transition-delay: 0.1s;
+				-webkit-transition-delay: 0.1s;
+				-ms-transition-delay: 0.1s;
+				transition-delay: 0.1s;
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 1s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 1s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 1s ease, -ms-transform 0.5s ease;
+				transition: opacity 1s ease, transform 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3793,4 +3792,3 @@ input, select, textarea {
 			}
 
 		}
-
